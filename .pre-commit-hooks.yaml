@@ -1,0 +1,18 @@
+-   id: sbt-compile
+    name: sbt compile
+    description: Builds project using "sbt compile"
+    entry: sbt-compile
+    language: python
+    pass_filenames: false
+-   id: sbt-test
+    name: sbt test
+    description: Builds and tests project using "sbt test"
+    entry: sbt-test
+    language: python
+    pass_filenames: false
+-   id: sbt-task
+    name: sbt task
+    description: Runs provided sbt task
+    entry: sbt-task
+    language: python
+    pass_filenames: false
